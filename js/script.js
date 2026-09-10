@@ -637,61 +637,61 @@ const quotes = [
 
   {
     text: "Uma espada pode terminar uma vida em um instante, mas não pode devolver aquilo que foi perdido.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "A verdadeira força talvez seja conseguir proteger sem precisar destruir.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "O passado pode acompanhar nossos passos, mas não precisa escolher o destino deles.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "Quem conhece o peso de uma espada também deveria conhecer o peso de uma vida.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "Uma pessoa não pode apagar seus crimes, mas pode decidir o que fará depois deles.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "A paz não significa esquecer a guerra; significa escolher não repetir seus motivos.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "O homem que passou a vida tirando vidas precisa aprender uma nova maneira de proteger as pessoas.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "Não existe redenção em mudar o passado. Ela começa quando mudamos aquilo que fazemos com o presente.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "Uma lâmina pode ser forte, mas a decisão de não usá-la pode exigir ainda mais força.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
   {
     text: "Depois de uma vida inteira seguindo o caminho da espada, encontrar outro caminho pode ser a batalha mais difícil.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
@@ -743,7 +743,7 @@ const quotes = [
 
   {
     text: "Carregar uma culpa não significa necessariamente permanecer acorrentado a ela para sempre.",
-    work: "Samurai X",
+    work: "Rurouni Kenshin",
     author: "Nobuhiro Watsuki",
   },
 
