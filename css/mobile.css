@@ -1,0 +1,45 @@
+/* =====================================================
+           RESPONSIVO
+        ===================================================== */
+
+@media (max-width: 600px) {
+  .page {
+    min-height: 100vh;
+
+    padding: 35px 0 25px;
+  }
+
+  .quote-area {
+    min-height: 55vh;
+
+    padding: 20px 0;
+  }
+
+  .quote-text {
+    font-size: 1.35rem;
+
+    line-height: 1.65;
+  }
+
+  .quote-mark {
+    font-size: 4rem;
+  }
+
+  .source {
+    margin-top: 25px;
+  }
+
+  .controls {
+    gap: 8px;
+  }
+
+  button {
+    padding: 12px 16px;
+
+    font-size: 0.58rem;
+  }
+
+  footer {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Cofre de frases — uma coleção pessoal de frases inspiradas no universo dos mangás."
+    />
+
+    <title>Potinho de Frases - Mangá</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="page">
+      <!-- =================================================
+             CABEÇALHO
+        ================================================== -->
+
+      <header>
+        <span class="eyebrow"> arquivo · fragmentos · mangá </span>
+
+        <h1>Potinho de Frases</h1>
+
+        <p class="subtitle">
+          Uma frase por vez. Nenhuma memória deve ocupar o mesmo lugar que
+          outra.
+        </p>
+      </header>
+
+      <!-- =================================================
+             FRASE
+        ================================================== -->
+
+      <section class="quote-area">
+        <article class="quote" id="quote" aria-live="polite">
+          <span class="quote-mark"> “ </span>
+
+          <p class="quote-text" id="quote-text"></p>
+
+          <div class="source">
+            <span class="work" id="quote-work"></span>
+
+            <span class="author" id="quote-author"></span>
+          </div>
+
+          <div class="divider"></div>
+
+          <span class="counter" id="counter"></span>
+        </article>
+      </section>
+
+      <!-- =================================================
+             CONTROLES
+        ================================================== -->
+
+      <nav class="controls">
+        <button id="new-quote" type="button">Nova frase</button>
+
+        <button id="copy-button" type="button">Copiar</button>
+      </nav>
+
+      <footer class="ano">&copy;<span>2026 baby bat codes</span></footer>
+
+      <script src="./js/script.js"></script>
+    </main>
+  </body>
+</html>

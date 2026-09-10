@@ -1,0 +1,363 @@
+/* =====================================================
+           RESET
+        ===================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #080808;
+  --bg-soft: #101010;
+  --panel: rgba(20, 20, 20, 0.78);
+
+  --text: #e5e5e5;
+  --muted: #777;
+  --line: #292929;
+
+  --accent: #bdbdbd;
+  --accent-hover: #ffffff;
+
+  --serif: "Cinzel", serif;
+  --sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow-x: hidden;
+
+  font-family: var(--sans);
+
+  color: var(--text);
+
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      rgba(255, 255, 255, 0.055),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(255, 255, 255, 0.025),
+      transparent 30%
+    ),
+    #080808;
+}
+
+/* =====================================================
+           TEXTURA
+        ===================================================== */
+
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: 0.12;
+
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.5) 0.5px,
+    transparent 0.5px
+  );
+
+  background-size: 5px 5px;
+
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    black 20%,
+    black 80%,
+    transparent
+  );
+}
+
+/* =====================================================
+           CONTAINER
+        ===================================================== */
+
+.page {
+  width: min(1100px, 92vw);
+
+  min-height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 50px 0 30px;
+}
+
+/* =====================================================
+           HEADER
+        ===================================================== */
+
+header {
+  text-align: center;
+}
+
+.eyebrow {
+  display: block;
+
+  margin-bottom: 14px;
+
+  font-size: 0.68rem;
+  font-weight: 500;
+
+  letter-spacing: 0.45em;
+
+  color: var(--muted);
+
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-family: var(--serif);
+
+  font-size: clamp(1.7rem, 4vw, 3rem);
+
+  font-weight: 500;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+.subtitle {
+  max-width: 500px;
+
+  margin: 15px auto 0;
+
+  color: #666;
+
+  font-size: 0.82rem;
+
+  line-height: 1.7;
+}
+
+/* =====================================================
+           ÁREA DA FRASE
+        ===================================================== */
+
+.quote-area {
+  width: 100%;
+  min-height: 470px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px 0;
+}
+
+.quote {
+  width: min(850px, 90vw);
+
+  text-align: center;
+
+  opacity: 0;
+
+  transform: translateY(20px);
+
+  transition:
+    opacity 0.55s ease,
+    transform 0.55s ease;
+}
+
+.quote.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =====================================================
+           ASPAS
+        ===================================================== */
+
+.quote-mark {
+  display: block;
+
+  margin-bottom: 15px;
+
+  font-family: Georgia, serif;
+
+  font-size: 5rem;
+
+  line-height: 0.5;
+
+  color: #333;
+}
+
+/* =====================================================
+           TEXTO
+        ===================================================== */
+
+.quote-text {
+  font-family: var(--serif);
+
+  font-size: clamp(1.35rem, 3vw, 2.45rem);
+
+  font-weight: 400;
+
+  line-height: 1.55;
+
+  letter-spacing: 0.015em;
+
+  color: #eeeeee;
+}
+
+/* =====================================================
+           INFORMAÇÕES
+        ===================================================== */
+
+.source {
+  margin-top: 35px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  align-items: center;
+}
+
+.work {
+  font-family: var(--serif);
+
+  font-size: 0.95rem;
+
+  letter-spacing: 0.18em;
+
+  text-transform: uppercase;
+
+  color: #ddd;
+}
+
+.author {
+  font-size: 0.7rem;
+
+  letter-spacing: 0.2em;
+
+  text-transform: uppercase;
+
+  color: #666;
+}
+
+/* =====================================================
+           LINHAS DECORATIVAS
+        ===================================================== */
+
+.divider {
+  width: min(500px, 70vw);
+
+  height: 1px;
+
+  margin: 0 auto 25px;
+
+  background: linear-gradient(to right, transparent, #444, transparent);
+}
+
+/* =====================================================
+           CONTADOR
+        ===================================================== */
+
+.counter {
+  margin-top: 30px;
+
+  font-size: 0.65rem;
+
+  letter-spacing: 0.25em;
+
+  color: #444;
+
+  text-transform: uppercase;
+}
+
+/* =====================================================
+           CONTROLES
+        ===================================================== */
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+}
+
+button {
+  appearance: none;
+
+  border: 1px solid #333;
+
+  background: rgba(255, 255, 255, 0.025);
+
+  color: #bbb;
+
+  padding: 13px 23px;
+
+  font-family: var(--sans);
+
+  font-size: 0.68rem;
+
+  letter-spacing: 0.18em;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.08);
+
+  border-color: #777;
+
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+#copy-button {
+  color: #777;
+}
+
+/* =====================================================
+           FOOTER
+        ===================================================== */
+
+footer {
+  text-align: center;
+
+  padding-top: 30px;
+
+  color: #333;
+
+  font-family: "Nanum Pen Script", cursive;
+
+  font-size: 1rem;
+
+  text-transform: uppercase;
+}
