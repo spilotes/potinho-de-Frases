@@ -207,7 +207,7 @@ header h1 {
 .quote-text {
   font-family: var(--serif);
 
-  font-size: clamp(1.15rem, 3vw, 1.45rem);
+  font-size: clamp(0.35rem, 3vw, 1.45rem);
 
   font-weight: 400;
 
