@@ -371,6 +371,393 @@ const quotes = [
     work: "Vagabond",
     author: "Takehiko Inoue",
   },
+
+  // =====================================================
+  // BERSERK — Kentaro Miura
+  // =====================================================
+
+  {
+    text: "Mesmo quando o mundo parece determinado a nos esmagar, ainda existe uma escolha: continuar caminhando.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Há batalhas que não existem para serem vencidas, mas para provar que ainda estamos vivos.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "A escuridão não desaparece quando fechamos os olhos; aprendemos a atravessá-la com eles abertos.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Algumas pessoas carregam suas cicatrizes como lembranças; outras, como armas.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "O destino pode empurrar um homem para o abismo, mas não pode decidir se ele continuará lutando.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Existem feridas que não pedem cura. Pedem apenas que aprendamos a viver depois delas.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "A solidão pesa mais quando lembramos daquilo que já tivemos.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Talvez sobreviver seja, às vezes, a forma mais silenciosa de desafiar o destino.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Quanto mais escura a noite, mais brutal se torna a necessidade de encontrar um motivo para continuar.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Um homem pode perder quase tudo e ainda conservar aquilo que o impede de se tornar vazio.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  // =====================================================
+  // VAGABOND — Takehiko Inoue
+  // =====================================================
+
+  {
+    text: "Aquele que deseja vencer todos os outros ainda não aprendeu o que significa vencer a si mesmo.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "A espada revela o corpo do adversário; a vida revela o homem que a segura.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "Quanto mais alto alguém deseja chegar, mais precisa aprender a caminhar sozinho.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "A verdadeira força começa quando a necessidade de provar força termina.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "O homem que conhece apenas a vitória jamais compreenderá completamente a própria força.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "Existe uma distância enorme entre empunhar uma espada e compreender por que ela foi desembainhada.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "A natureza não disputa com ninguém. Ela simplesmente permanece sendo aquilo que é.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "Ser invencível talvez seja menos importante do que deixar de precisar ser.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "Quanto mais se observa o mundo, menos necessário parece dizer que se é forte.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "O caminho se torna mais claro quando deixamos de caminhar apenas para chegar ao fim.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  // =====================================================
+  // DIÁRIO DE UMA APOTECÁRIA
+  // Natsu Hyuuga / Nekokurage
+  // =====================================================
+
+  {
+    text: "Uma pequena alteração em um detalhe pode esconder uma verdade muito maior.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Curiosidade é perigosa quando ninguém consegue convencer você a deixá-la de lado.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Nem todo veneno precisa matar; alguns apenas precisam ser compreendidos.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Observar aquilo que os outros ignoram costuma ser o primeiro passo para descobrir a verdade.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Conhecimento é uma ferramenta estranha: quanto mais aprendemos, mais percebemos o quanto desconhecemos.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Em um palácio cheio de aparências, a verdade raramente entra pela porta da frente.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Uma pessoa inteligente sabe quando perguntar. Uma pessoa cuidadosa sabe quando não perguntar.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Nem tudo que parece absurdo deixa de ser possível.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "A medicina pode explicar o corpo, mas nem sempre consegue explicar as escolhas de quem vive dentro dele.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Às vezes, resolver um mistério significa simplesmente prestar atenção ao que ninguém considerou importante.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  // =====================================================
+  // SHE IS BEAUTIFUL
+  // Jun Esaka / Takahide Totsuno
+  // =====================================================
+
+  {
+    text: "Uma lembrança pode ser verdadeira mesmo quando aquilo que lembramos já não existe.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "O que somos quando todas as nossas memórias começam a desaparecer?",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "Às vezes, conhecer alguém novamente é descobrir que nunca deixamos de conhecê-la.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "Uma pessoa pode desaparecer da memória sem desaparecer completamente daquilo que somos.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "A identidade talvez seja feita tanto das lembranças quanto das coisas que esquecemos.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "Se todas as memórias fossem retiradas de nós, ainda reconheceríamos quem amamos?",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "O medo de esquecer alguém pode ser tão poderoso quanto a própria lembrança.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "Existem pessoas que permanecem em nós mesmo quando já não conseguimos lembrar seus nomes.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "Uma memória perdida não deixa necessariamente um espaço vazio; às vezes deixa uma ausência que sentimos sem compreender.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "Talvez lembrar seja apenas outra maneira de dizer que alguém ainda possui um lugar dentro de nós.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  // =====================================================
+  // SAMURAI X / RUROUNI KENSHIN
+  // Nobuhiro Watsuki
+  // =====================================================
+
+  {
+    text: "Uma espada pode terminar uma vida em um instante, mas não pode devolver aquilo que foi perdido.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "A verdadeira força talvez seja conseguir proteger sem precisar destruir.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "O passado pode acompanhar nossos passos, mas não precisa escolher o destino deles.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "Quem conhece o peso de uma espada também deveria conhecer o peso de uma vida.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "Uma pessoa não pode apagar seus crimes, mas pode decidir o que fará depois deles.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "A paz não significa esquecer a guerra; significa escolher não repetir seus motivos.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "O homem que passou a vida tirando vidas precisa aprender uma nova maneira de proteger as pessoas.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "Não existe redenção em mudar o passado. Ela começa quando mudamos aquilo que fazemos com o presente.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "Uma lâmina pode ser forte, mas a decisão de não usá-la pode exigir ainda mais força.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "Depois de uma vida inteira seguindo o caminho da espada, encontrar outro caminho pode ser a batalha mais difícil.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  // =====================================================
+  // MISTURA — TEMAS SEINEN / MANGÁ
+  // =====================================================
+
+  {
+    text: "Não é necessário compreender completamente o caminho para dar o próximo passo.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "Há perguntas que valem mais do que respostas encontradas depressa demais.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "A memória pode mudar de forma, mas aquilo que sentimos por alguém nem sempre desaparece com ela.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "A sobrevivência não é uma vitória pequena quando o mundo inteiro parece desejar nossa queda.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Um homem pode passar a vida procurando um inimigo e descobrir tarde demais que estava procurando a si mesmo.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
+
+  {
+    text: "O veneno mais perigoso pode ser aquele que ninguém percebe porque se parece com algo inofensivo.",
+    work: "Diário de uma Apotecária",
+    author: "Natsu Hyuuga",
+  },
+
+  {
+    text: "Quando as lembranças desaparecem, talvez sejam as relações que revelem quem realmente fomos.",
+    work: "She Is Beautiful",
+    author: "Jun Esaka",
+  },
+
+  {
+    text: "Carregar uma culpa não significa necessariamente permanecer acorrentado a ela para sempre.",
+    work: "Samurai X",
+    author: "Nobuhiro Watsuki",
+  },
+
+  {
+    text: "A diferença entre desistir e descansar às vezes é apenas o tempo necessário para recuperar forças.",
+    work: "Berserk",
+    author: "Kentaro Miura",
+  },
+
+  {
+    text: "Aquele que olha apenas para o adversário jamais perceberá tudo aquilo que existe ao redor da batalha.",
+    work: "Vagabond",
+    author: "Takehiko Inoue",
+  },
 ];
 
 /* =====================================================
